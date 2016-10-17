@@ -1,6 +1,7 @@
 # seriesChain
 JavaScript series chaining with args passthrough
 
+
 const test = function (cb) {
 	console.log(0);
 	cb && cb(11);
