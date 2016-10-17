@@ -1,7 +1,7 @@
 Function.prototype.seriesChain = function (cb) {
 	const castor = this;
 	const callbacks = [castor];
-	let currentArgs = null;
+	// let currentArgs = null;
 	const addition = function (cb) {
 		if (typeof cb == 'function') {
 			callbacks.unshift(cb);
